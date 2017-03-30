@@ -17,9 +17,9 @@
 #     print(myfile.read())
 
 # Correctly text in file for latin-1
-with open('str.txt', 'w', encoding='latin-1') as myfile:
-    myfile.write('any text for this encoding')
+# with open('str.txt', 'w', encoding='latin-1') as myfile:
+#     myfile.write('any text for this encoding')
 
 # decode last file in bite
-with open('str.txt', 'br') as myfile:
-    print(myfile.read())
+# with open('str.txt', 'br') as myfile:
+#    print(myfile.read())
